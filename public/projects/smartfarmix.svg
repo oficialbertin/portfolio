@@ -1,0 +1,23 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradSmart" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#16A34A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" rx="32" fill="#022C22"/>
+  <rect x="60" y="70" width="680" height="310" rx="28" fill="#022C22" stroke="#064E3B" stroke-width="3"/>
+  <path d="M120 300C170 260 210 245 260 245C310 245 350 260 400 300C450 340 490 355 540 355C590 355 630 340 680 300" stroke="url(#gradSmart)" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="220" cy="230" r="40" fill="#022C22" stroke="#22C55E" stroke-width="6"/>
+  <path d="M220 210C220 210 210 225 210 238C210 252 220 260 220 260C220 260 230 252 230 238C230 225 220 210 220 210Z" fill="#22C55E"/>
+  <circle cx="400" cy="190" r="50" fill="#022C22" stroke="#BBF7D0" stroke-width="4"/>
+  <path d="M380 200H420M400 180V220" stroke="#BBF7D0" stroke-width="6" stroke-linecap="round"/>
+  <rect x="520" y="180" width="160" height="110" rx="16" fill="#022C22" stroke="#4ADE80" stroke-width="2"/>
+  <rect x="540" y="205" width="120" height="12" rx="6" fill="#22C55E"/>
+  <rect x="540" y="230" width="90" height="8" rx="4" fill="#065F46"/>
+  <rect x="540" y="248" width="70" height="8" rx="4" fill="#065F46"/>
+  <text x="80" y="380" fill="#DCFCE7" font-family="system-ui, -apple-system, BlinkMacSystemFont" font-size="20">
+    SmartFarmix – Smart Agriculture &amp; IoT
+  </text>
+</svg>
+
