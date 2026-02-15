@@ -27,6 +27,11 @@ const Footer = () => {
                   GitHub
                 </a>
               )}
+              {personalInfo.linkedin && (
+                <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer">
+                  LinkedIn
+                </a>
+              )}
             </div>
           </div>
         </div>
