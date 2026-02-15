@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
+import { FaDownload } from 'react-icons/fa';
 import { personalInfo } from '../data/personal';
 import { projects } from '../data/projects';
+import profileImage from '../assets/images/122A7974.jpg';
 import './Home.css';
 
 const Home = () => {
@@ -9,6 +11,13 @@ const Home = () => {
       <section className="hero">
         <div className="hero-container">
           <div className="hero-content">
+            <div className="hero-image-wrapper">
+              <img 
+                src={profileImage} 
+                alt={personalInfo.name}
+                className="hero-profile-image"
+              />
+            </div>
             <h1 className="hero-name">{personalInfo.name}</h1>
             <h2 className="hero-role">{personalInfo.role}</h2>
             <p className="hero-tagline">{personalInfo.tagline}</p>
@@ -29,6 +38,13 @@ const Home = () => {
                   GitHub Profile
                 </a>
               )}
+              <a
+                href="/uploads/CURRICULUM_VITAE_for_HAKIZAYEZU_Bertin.pdf"
+                download
+                className="btn btn-download"
+              >
+                <FaDownload /> Download CV
+              </a>
               <a
                 href={`mailto:${personalInfo.email}`}
                 className="btn btn-outline"

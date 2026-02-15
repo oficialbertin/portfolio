@@ -1,3 +1,4 @@
+import { FaDownload } from 'react-icons/fa';
 import SectionTitle from '../components/SectionTitle';
 import { personalInfo } from '../data/personal';
 import './Contact.css';
@@ -83,6 +84,13 @@ const Contact = () => {
                 className="btn-contact"
               >
                 Send Email
+              </a>
+              <a
+                href="/uploads/CURRICULUM_VITAE_for_HAKIZAYEZU_Bertin.pdf"
+                download
+                className="btn-contact btn-download-cv"
+              >
+                <FaDownload /> Download CV
               </a>
             </div>
           </div>

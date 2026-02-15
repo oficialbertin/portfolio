@@ -14,6 +14,7 @@ export const projects = [
     live: 'https://web.farmbridgeai.rw/',
     category: 'Agriculture Tech',
     image: '/projects/farmbridgeai.svg',
+    logo: '/uploads/farmbridge_logo.png',
   },
   {
     id: 2,

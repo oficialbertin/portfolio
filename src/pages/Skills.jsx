@@ -66,6 +66,32 @@ const Skills = () => {
           </div>
 
           <div className="skill-category">
+            <h3 className="category-title">Networking</h3>
+            <div className="skills-grid">
+              {skills.networking.map((skill, index) => (
+                <SkillBadge
+                  key={index}
+                  skill={skill.name}
+                  level={skill.level}
+                />
+              ))}
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h3 className="category-title">IoT (Internet of Things)</h3>
+            <div className="skills-grid">
+              {skills.iot.map((skill, index) => (
+                <SkillBadge
+                  key={index}
+                  skill={skill.name}
+                  level={skill.level}
+                />
+              ))}
+            </div>
+          </div>
+
+          <div className="skill-category">
             <h3 className="category-title">Tools & Platforms</h3>
             <div className="skills-grid">
               {skills.tools.map((skill, index) => (

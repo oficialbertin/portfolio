@@ -19,9 +19,21 @@ export const skills = {
   ],
   programming: [
     { name: "Python", level: "Intermediate" },
-    { name: "System Support & Troubleshooting", level: "Intermediate" },
+    { name: "System Support & Troubleshooting", level: "Intermediate" }
+  ],
+  networking: [
     { name: "LAN/WAN Networking", level: "Intermediate" },
-    { name: "IoT Device Integration", level: "Basic" }
+    { name: "Network Configuration", level: "Intermediate" },
+    { name: "Network Troubleshooting", level: "Intermediate" },
+    { name: "Network Security", level: "Basic" },
+    { name: "Router & Switch Configuration", level: "Intermediate" }
+  ],
+  iot: [
+    { name: "IoT Device Integration", level: "Intermediate" },
+    { name: "IoT Sensor Configuration", level: "Intermediate" },
+    { name: "IoT Data Collection", level: "Intermediate" },
+    { name: "IoT Platform Development", level: "Basic" },
+    { name: "Arduino/Raspberry Pi", level: "Basic" }
   ],
   tools: [
     { name: "Git & GitHub", level: "Advanced" },

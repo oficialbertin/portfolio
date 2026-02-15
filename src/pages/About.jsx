@@ -1,6 +1,8 @@
 import SectionTitle from '../components/SectionTitle';
 import { bio, careerInterests, education } from '../data/personal';
 import { experiences } from '../data/experience';
+import aboutImage1 from '../assets/images/122A7974.jpg';
+import aboutImage2 from '../assets/images/122A7984.jpg';
 import './About.css';
 
 const About = () => {
@@ -13,6 +15,15 @@ const About = () => {
         />
 
         <section className="about-section">
+          <div className="about-images">
+            <div className="about-image-wrapper">
+              <img src={aboutImage1} alt="Professional work" className="about-image" />
+            </div>
+            <div className="about-image-wrapper">
+              <img src={aboutImage2} alt="Team collaboration" className="about-image" />
+            </div>
+          </div>
+          
           <div className="bio-content">
             <h3>Who I Am</h3>
             <div className="bio-text">

@@ -87,10 +87,15 @@
 
 .contact-cta {
   margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .btn-contact {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   padding: 1rem 2rem;
   background: #2563eb;
   color: #fff;
@@ -106,6 +111,15 @@
   box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
 }
 
+.btn-download-cv {
+  background: #10b981;
+}
+
+.btn-download-cv:hover {
+  background: #059669;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
 @media (max-width: 768px) {
   .contact {
     padding: 2rem 0;
@@ -118,5 +132,14 @@
   .contact-content {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+  
+  .contact-cta {
+    flex-direction: column;
+  }
+  
+  .btn-contact {
+    width: 100%;
+    justify-content: center;
   }
 }
