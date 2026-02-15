@@ -9,13 +9,12 @@ export const projects = [
       'Contributed to the core platform logic and integration of AI-powered endpoints into a clean, user-friendly web experience.',
     impact:
       'Gives farmers access to data that was previously hard to obtain, improving income potential and planning.',
-    tech: ['Python', 'AI/ML', 'APIs', 'Web Dashboard','PHP'],
+    tech: ['Python', 'AI/ML', 'APIs', 'Web Dashboard', 'PHP'],
     github: 'https://github.com/oficialbertin/farmbridge',
     live: 'https://web.farmbridgeai.rw/',
     category: 'Agriculture Tech',
     image: '/projects/farmbridgeai.svg',
   },
-
   {
     id: 2,
     title: 'SmartFarmix',
@@ -26,7 +25,7 @@ export const projects = [
       'Lead developer and trainer at CRAT Rubavu, responsible for the platform architecture, backend APIs, and training students on how to extend the system.',
     impact:
       'Enables farmers and students to understand how technology can optimize farming, from monitoring to advisory services.',
-    tech: ['Python', 'Web APIs', 'IoT', 'Dashboard','React','Node JS'],
+    tech: ['Python', 'Web APIs', 'IoT', 'Dashboard', 'React', 'Node JS'],
     github: 'https://github.com/oficialbertin/smartfarmix',
     live: 'https://smartfarmix-2.onrender.com',
     category: 'Agriculture Tech',
@@ -42,7 +41,7 @@ export const projects = [
       'Full-stack development during my internship at kLab, focusing on building authentication, application workflows, and responsive UI.',
     impact:
       'Helps youth easily discover relevant opportunities and gives organizations a centralized space to reach talent.',
-    tech: ['PHP', 'MySQL', 'Bootstrap', 'JavaScript'],
+    tech: ['PHP', 'Laravel', 'MySQL', 'Bootstrap', 'JavaScript'],
     github: 'https://github.com/oficialbertin/skillsbridge',
     live: 'https://skillsbridge.com',
     category: 'Web Platform',
@@ -64,5 +63,4 @@ export const projects = [
     category: 'Health Tech',
     image: '/projects/viroshield.svg',
   },
-  
 ];
