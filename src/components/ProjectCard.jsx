@@ -17,6 +17,15 @@ const ProjectCard = ({ project }) => {
     <div className="project-card">
       {project.image && (
         <div className="project-image-wrapper">
+          {project.logo && (
+            <div className="project-logo-badge" aria-hidden="true">
+              <img
+                src={project.logo}
+                alt=""
+                className="project-logo-image"
+              />
+            </div>
+          )}
           <img
             src={project.image}
             alt={project.title}

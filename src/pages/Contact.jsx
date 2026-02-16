@@ -90,7 +90,7 @@ const Contact = () => {
                 download
                 className="btn-contact btn-download-cv"
               >
-                <FaDownload /> Download CV
+                <FaDownload /> Download Resume
               </a>
             </div>
           </div>

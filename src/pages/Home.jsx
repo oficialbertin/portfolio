@@ -43,7 +43,7 @@ const Home = () => {
                 download
                 className="btn btn-download"
               >
-                <FaDownload /> Download CV
+                <FaDownload /> Download Resume
               </a>
               <a
                 href={`mailto:${personalInfo.email}`}
