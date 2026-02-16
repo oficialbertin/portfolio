@@ -6,6 +6,8 @@ import profileImage from '../assets/images/122A7974.jpg';
 import './Home.css';
 
 const Home = () => {
+  const resumeUrl = `${import.meta.env.BASE_URL}uploads/CURRICULUM_VITAE_for_HAKIZAYEZU_Bertin.pdf`;
+
   return (
     <div className="home">
       <section className="hero">
@@ -39,7 +41,7 @@ const Home = () => {
                 </a>
               )}
               <a
-                href="/uploads/CURRICULUM_VITAE_for_HAKIZAYEZU_Bertin.pdf"
+                href={resumeUrl}
                 download
                 className="btn btn-download"
               >

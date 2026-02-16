@@ -4,6 +4,8 @@ import { personalInfo } from '../data/personal';
 import './Contact.css';
 
 const Contact = () => {
+  const resumeUrl = `${import.meta.env.BASE_URL}uploads/CURRICULUM_VITAE_for_HAKIZAYEZU_Bertin.pdf`;
+
   return (
     <div className="contact">
       <div className="container">
@@ -86,7 +88,7 @@ const Contact = () => {
                 Send Email
               </a>
               <a
-                href="/uploads/CURRICULUM_VITAE_for_HAKIZAYEZU_Bertin.pdf"
+                href={resumeUrl}
                 download
                 className="btn-contact btn-download-cv"
               >

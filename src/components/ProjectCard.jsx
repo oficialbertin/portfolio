@@ -1,6 +1,14 @@
 import { FaCode, FaLeaf, FaHeartbeat, FaGlobeAfrica } from 'react-icons/fa';
 import './ProjectCard.css';
 
+const withBase = (pathOrUrl) => {
+  if (!pathOrUrl) return '';
+  if (pathOrUrl.startsWith('http://') || pathOrUrl.startsWith('https://')) return pathOrUrl;
+  const base = import.meta.env.BASE_URL || '/';
+  const clean = pathOrUrl.replace(/^\/+/, '');
+  return `${base}${clean}`;
+};
+
 const getProjectIcon = (category) => {
   if (!category) return FaCode;
   const c = category.toLowerCase();
@@ -20,14 +28,14 @@ const ProjectCard = ({ project }) => {
           {project.logo && (
             <div className="project-logo-badge" aria-hidden="true">
               <img
-                src={project.logo}
+                src={withBase(project.logo)}
                 alt=""
                 className="project-logo-image"
               />
             </div>
           )}
           <img
-            src={project.image}
+            src={withBase(project.image)}
             alt={project.title}
             className="project-image"
           />

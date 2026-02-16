@@ -13,8 +13,8 @@ export const projects = [
     github: 'https://github.com/oficialbertin/farmbridge',
     live: 'https://web.farmbridgeai.rw/',
     category: 'Agriculture Tech',
-    image: '/projects/farmbridgeai.svg',
-    logo: '/uploads/farmbridge_logo.png',
+    image: 'projects/farmbridgeai.svg',
+    logo: 'uploads/farmbridge_logo.png',
   },
   {
     id: 2,
@@ -30,8 +30,8 @@ export const projects = [
     github: 'https://github.com/oficialbertin/smartfarmix',
     live: 'https://smartfarmix-2.onrender.com',
     category: 'Agriculture Tech',
-    image: '/projects/smartfarmix.svg',
-    logo: '/projects/icons/smartfarmix-icon.svg',
+    image: 'projects/smartfarmix.svg',
+    logo: 'projects/icons/smartfarmix-icon.svg',
   },
   {
     id: 3,
@@ -47,8 +47,8 @@ export const projects = [
     github: 'https://github.com/oficialbertin/skillsbridge',
     live: 'https://skillsbridge.com',
     category: 'Web Platform',
-    image: '/projects/skillsbridge.svg',
-    logo: '/projects/icons/skillsbridge-icon.svg',
+    image: 'projects/skillsbridge.svg',
+    logo: 'projects/icons/skillsbridge-icon.svg',
   },
   {
     id: 4,
@@ -64,7 +64,7 @@ export const projects = [
     github: 'https://github.com/oficialbertin/viroshield',
     live: 'https://viroshield-demo.com',
     category: 'Health Tech',
-    image: '/projects/viroshield.svg',
-    logo: '/projects/icons/viroshield-icon.svg',
+    image: 'projects/viroshield.svg',
+    logo: 'projects/icons/viroshield-icon.svg',
   },
 ];
