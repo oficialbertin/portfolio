@@ -18,7 +18,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'SmartFarmix',
+    title: 'IMARA',
     shortTitle: 'Smart Agriculture Platform',
     description:
       'A comprehensive smart agriculture platform integrating IoT monitoring, AI-powered plant disease detection, real-time analytics, and intelligent irrigation management for modern farming.',
@@ -28,7 +28,7 @@ export const projects = [
       'Enables farmers and students to understand how technology can optimize farming, from monitoring to advisory services.',
     tech: ['Python', 'Web APIs', 'IoT','AI/ML', 'Dashboard', 'React', 'Node JS'],
     github: 'https://github.com/oficialbertin/smartfarmix',
-    live: 'https://smartfarmix-2.onrender.com',
+    live: 'https://imara.co.rw/',
     category: 'Agriculture Tech',
     image: 'projects/smartfarmix.svg',
     logo: 'projects/icons/smartfarmix-icon.svg',

@@ -22,7 +22,7 @@ export const education = [
     degree: "Advanced Diploma in Information Technology",
     institution: "RP Tumba College",
     period: "2022 - 2025",
-    status: "Graduation pending: Early 2026"
+    status: "Completed"
   },
   {
     degree: "A2 Certificate in Software Development",

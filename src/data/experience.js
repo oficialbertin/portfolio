@@ -3,11 +3,11 @@ export const experiences = [
     id: 1,
     title: "Developer & Trainer",
     company: "CRAT - Rubavu",
-    period: "October 2025 - January 2026",
+    period: "October 2025 - May 2026",
     location: "Rubavu, Rwanda",
     description: "Developed digital platforms and delivered training in web development and IoT.",
     achievements: [
-      "Developed digital platforms including SmartFarmix focusing on smart agriculture",
+      "Developed digital platforms including IMARA focusing on smart agriculture",
       "Delivered hands-on training to students in Web Development, IoT, and basic system design concepts",
       "Mentored learners on practical software development tools and real-world project implementation",
       "Supported youth capacity building through applied, project-based learning approaches"
