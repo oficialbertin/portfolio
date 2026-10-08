@@ -4,7 +4,7 @@ A professional static portfolio website built with React + Vite.
 
 ## Features
 
-- Clean, modern design
+- Clean, modern designe
 - Responsive layout
 - Fast loading with Vite
 - Easy to update content
