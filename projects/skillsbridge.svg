@@ -1,0 +1,28 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradSkills" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" rx="32" fill="#0F172A"/>
+  <rect x="48" y="60" width="704" height="330" rx="24" fill="#020617"/>
+  <rect x="70" y="90" width="660" height="60" rx="16" fill="#020617" stroke="#1E293B" stroke-width="2"/>
+  <circle cx="105" cy="120" r="10" fill="#F97316"/>
+  <circle cx="135" cy="120" r="10" fill="#22C55E"/>
+  <circle cx="165" cy="120" r="10" fill="#3B82F6"/>
+  <rect x="115" y="180" width="160" height="120" rx="18" fill="#0B1120" stroke="#1D4ED8" stroke-width="2"/>
+  <rect x="320" y="180" width="160" height="120" rx="18" fill="#0B1120" stroke="#22C55E" stroke-width="2"/>
+  <rect x="525" y="180" width="160" height="120" rx="18" fill="#0B1120" stroke="#EAB308" stroke-width="2"/>
+  <rect x="135" y="210" width="120" height="16" rx="8" fill="#1D4ED8"/>
+  <rect x="135" y="238" width="90" height="10" rx="5" fill="#1E293B"/>
+  <rect x="340" y="210" width="120" height="16" rx="8" fill="#22C55E"/>
+  <rect x="340" y="238" width="90" height="10" rx="5" fill="#1E293B"/>
+  <rect x="545" y="210" width="120" height="16" rx="8" fill="#EAB308"/>
+  <rect x="545" y="238" width="90" height="10" rx="5" fill="#1E293B"/>
+  <path d="M120 330C180 305 220 305 280 330C340 355 380 355 440 330C500 305 540 305 600 330C635 345 660 350 680 350" stroke="url(#gradSkills)" stroke-width="8" stroke-linecap="round"/>
+  <text x="80" y="360" fill="#CBD5F5" font-family="system-ui, -apple-system, BlinkMacSystemFont" font-size="20">
+    SkillsBridge – Youth Jobs &amp; Training Platform
+  </text>
+</svg>
+
